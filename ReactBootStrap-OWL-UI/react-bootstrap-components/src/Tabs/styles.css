@@ -1,0 +1,39 @@
+.owl-ui-tabs{
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.nav-tabs .nav-link{
+    background-color: #6f747a;
+}
+
+.nav-tabs .nav-link:hover{
+    background-color: white;
+    border-bottom: 1px solid transparent !important;
+}
+
+.nav-tabs .nav-link:not(.active){
+    background-color: #6f747a;
+    border-right: 1px solid white;
+    color: white;
+}
+
+.nav-tabs .nav-link:not(.active):hover{
+    background-color: white;
+    border-top: 3px solid red !important;
+    color: #495057;
+}
+
+.nav-tabs .nav-link.active {
+    border-top: 3px solid blue !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.tab-content p{
+    text-align: left;
+}
+
+.tab-content {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;;
+}

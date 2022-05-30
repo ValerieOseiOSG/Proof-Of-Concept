@@ -1,0 +1,46 @@
+.switch-container{
+    max-width: 960px;
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.form-container{
+    width: 70%;
+}
+
+.active-switch{
+    border: 2px solid #005a9c;
+    background-color: #def;
+    border-radius: 5px; 
+}
+
+
+/* .form-container h3{
+    text-align: center;
+} */
+
+/* .switch-container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label:hover{
+    border: 2px solid #005a9c;
+    background-color: #def;
+    border-radius: 5px;
+}
+
+/* input#custom-switch.form-check-input{
+    background-color: red;
+} */
+
+.label span {
+    /* margin-top: 1rem; */
+}
